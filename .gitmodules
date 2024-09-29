@@ -1,0 +1,6 @@
+[submodule "welcome"]
+	path = welcome
+	url = ./welcome/
+[submodule "music"]
+	path = music
+	url = ./music/
