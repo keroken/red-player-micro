@@ -1,19 +1,6 @@
 <template>
-  <div id="app">
-    <HomePage msg="Welcome to Red Player - Your Music Station"/>
-  </div>
+  <router-view></router-view>
 </template>
-
-<script>
-import HomePage from './components/Home.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HomePage
-  }
-}
-</script>
 
 <style>
 #app {
