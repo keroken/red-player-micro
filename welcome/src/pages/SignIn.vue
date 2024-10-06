@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'SignIn',
+  name: 'SignInPage',
 }
 </script>
 
