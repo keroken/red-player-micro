@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 import Welcome from './pages/Welcome.vue';
 import SignIn from './pages/SignIn.vue';
+import NotFound from './pages/NotFound.vue';
 
 Vue.config.productionTip = false
 
@@ -15,7 +16,7 @@ const router = new VueRouter({
   routes: [
     { path: '/signin', component: SignIn },
     { path: '/', component: Welcome },
-    { path: '*', redirect: '/' },
+    { path: '*', component: NotFound },
   ],
 });
 
