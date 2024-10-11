@@ -2,6 +2,7 @@
   <div>
     <h1>Welcome</h1>
     <h2>Welcome to Red Player!</h2>
+    <p>This is where your journey starts...</p>
   </div>
 </template>
 
